@@ -1,0 +1,13 @@
+﻿antecedent,consequent,support,confidence,lift
+Paper,Fasteners,0.012,0.05,1.154
+Fasteners,Paper,0.012,0.274,1.154
+Phones,Bookcases,0.008,0.052,1.154
+Bookcases,Phones,0.008,0.188,1.154
+Storage,Labels,0.012,0.079,1.137
+Labels,Storage,0.012,0.176,1.137
+Fasteners,Binders,0.012,0.288,1.098
+Binders,Fasteners,0.012,0.047,1.098
+Binders,Appliances,0.026,0.099,1.097
+Appliances,Binders,0.026,0.288,1.097
+Furnishings,Fasteners,0.008,0.047,1.089
+Fasteners,Furnishings,0.008,0.191,1.089

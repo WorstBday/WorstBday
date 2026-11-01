@@ -1,0 +1,22 @@
+﻿字段,类型,含义,在模型中的角色,缺失数,唯一值数
+Row ID,int,行序号（记录唯一标识）,明细主键,0,9994
+Order ID,str,订单编号，同一订单可含多行商品,外键 -> dim_order,0,5009
+Order Date,date,下单日期,时间维度,0,1237
+Ship Date,date,发货日期,计算履约时长,0,1334
+Ship Mode,str,配送方式（4 类）,维度,0,4
+Customer ID,str,客户编号,外键 -> dim_customer,0,793
+Customer Name,str,客户姓名,维度,0,793
+Segment,str,客户细分：Consumer/Corporate/Home Office,维度,0,3
+Country,str,国家（全部为 United States）,常量字段,0,1
+City,str,城市,地理维度,0,531
+State,str,州,地理维度,0,49
+Postal Code,str,邮编（存在非法值）,地理维度,0,631
+Region,str,大区：East/West/Central/South,维度,0,4
+Product ID,str,产品编号,外键 -> dim_product,0,1862
+Category,str,品类：Furniture/Office Supplies/Technology,维度,0,3
+Sub-Category,str,子品类（17 类）,维度,0,17
+Product Name,str,产品名称,维度,0,1850
+Sales,float,销售额（美元）,度量,0,5825
+Quantity,int,购买数量,度量,0,14
+Discount,float,折扣率 0~0.8,度量,0,12
+Profit,float,利润（美元，可为负）,度量,0,7287
