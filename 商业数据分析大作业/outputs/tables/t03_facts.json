@@ -1,0 +1,659 @@
+{
+  "kpi": {
+    "gmv": 2296919.49,
+    "profit": 286409.08,
+    "margin": 12.47,
+    "orders": 5009,
+    "customers": 793,
+    "items": 9993,
+    "aov": 458.56,
+    "avg_discount": 15.62,
+    "loss_row_share": 18.71,
+    "loss_amount": -156119.23,
+    "start": "2014-01-03",
+    "end": "2017-12-30",
+    "state_count": 49,
+    "product_count": 1862,
+    "subcat_count": 17,
+    "avg_ship_days": 3.96,
+    "profit_per_item": 28.66
+  },
+  "yearly": [
+    {
+      "Order Year": 2014,
+      "sales": 483966.13,
+      "profit": 49556.03,
+      "orders": 969,
+      "yoy_sales": null,
+      "yoy_profit": null,
+      "margin": 10.24
+    },
+    {
+      "Order Year": 2015,
+      "sales": 470532.51,
+      "profit": 61618.6,
+      "orders": 1038,
+      "yoy_sales": -2.78,
+      "yoy_profit": 24.34,
+      "margin": 13.1
+    },
+    {
+      "Order Year": 2016,
+      "sales": 609205.6,
+      "profit": 81795.17,
+      "orders": 1315,
+      "yoy_sales": 29.47,
+      "yoy_profit": 32.74,
+      "margin": 13.43
+    },
+    {
+      "Order Year": 2017,
+      "sales": 733215.26,
+      "profit": 93439.27,
+      "orders": 1687,
+      "yoy_sales": 20.36,
+      "yoy_profit": 14.24,
+      "margin": 12.74
+    }
+  ],
+  "yoy_2017": 20.36,
+  "yoy_2017_profit": 14.24,
+  "peak_month": 11,
+  "trough_month": 2,
+  "peak_ratio": 5.9,
+  "top_subcat": [
+    {
+      "Sub-Category": "Phones",
+      "sales": 330007.05,
+      "margin": 13.49
+    },
+    {
+      "Sub-Category": "Chairs",
+      "sales": 328167.73,
+      "margin": 8.11
+    },
+    {
+      "Sub-Category": "Storage",
+      "sales": 223843.61,
+      "margin": 9.51
+    }
+  ],
+  "worst_subcat": [
+    {
+      "Sub-Category": "Tables",
+      "sales": 206965.53,
+      "margin": -8.56
+    },
+    {
+      "Sub-Category": "Bookcases",
+      "sales": 114880.0,
+      "margin": -3.02
+    },
+    {
+      "Sub-Category": "Supplies",
+      "sales": 46673.54,
+      "margin": -2.55
+    }
+  ],
+  "neg_profit_subcat": 3,
+  "shipmode_best": {
+    "Ship Mode": "Same Day",
+    "days": 0.04419889502762431,
+    "share": 5.270513076462368
+  },
+  "discount_profit_corr": -0.864,
+  "margin_no_discount": 34.02,
+  "margin_high_discount": -93.23,
+  "loss_share_high_discount": 97.72,
+  "pareto": {
+    "customers": 793,
+    "a_customers": 305,
+    "a_customer_share": 38.46,
+    "a_sales_share": 70.0,
+    "b_share": 19.97,
+    "c_share": 10.03,
+    "n_for_80pct": 395,
+    "products": 1862,
+    "product_a_share": 15.04,
+    "product_a_sales": 69.95,
+    "neg_profit_products": 301
+  },
+  "rfm": {
+    "r_median": 76.0,
+    "f_median": 6.0,
+    "m_median": 2256.39,
+    "segments": [
+      {
+        "Segment": "重要价值客户",
+        "customers": 199,
+        "sales": 907060.75,
+        "avg_r": 33.1,
+        "avg_f": 8.48,
+        "avg_m": 4558.09,
+        "cust_share": 25.09,
+        "sales_share": 39.49,
+        "arpu": 4558.09
+      },
+      {
+        "Segment": "重要唤回客户",
+        "customers": 115,
+        "sales": 556130.62,
+        "avg_r": 175.03,
+        "avg_f": 8.15,
+        "avg_m": 4835.92,
+        "cust_share": 14.5,
+        "sales_share": 24.21,
+        "arpu": 4835.92
+      },
+      {
+        "Segment": "重要挽留客户",
+        "customers": 52,
+        "sales": 231982.32,
+        "avg_r": 309.73,
+        "avg_f": 4.58,
+        "avg_m": 4461.2,
+        "cust_share": 6.56,
+        "sales_share": 10.1,
+        "arpu": 4461.2
+      },
+      {
+        "Segment": "一般挽留客户",
+        "customers": 155,
+        "sales": 149154.41,
+        "avg_r": 341.78,
+        "avg_f": 3.61,
+        "avg_m": 962.29,
+        "cust_share": 19.55,
+        "sales_share": 6.49,
+        "arpu": 962.29
+      },
+      {
+        "Segment": "重要发展客户",
+        "customers": 31,
+        "sales": 145881.4,
+        "avg_r": 35.61,
+        "avg_f": 4.35,
+        "avg_m": 4705.85,
+        "cust_share": 3.91,
+        "sales_share": 6.35,
+        "arpu": 4705.85
+      },
+      {
+        "Segment": "一般价值客户",
+        "customers": 76,
+        "sales": 117175.33,
+        "avg_r": 31.82,
+        "avg_f": 7.45,
+        "avg_m": 1541.78,
+        "cust_share": 9.58,
+        "sales_share": 5.1,
+        "arpu": 1541.78
+      },
+      {
+        "Segment": "一般保持客户",
+        "customers": 74,
+        "sales": 100480.22,
+        "avg_r": 198.14,
+        "avg_f": 7.09,
+        "avg_m": 1357.84,
+        "cust_share": 9.33,
+        "sales_share": 4.37,
+        "arpu": 1357.84
+      },
+      {
+        "Segment": "一般发展客户",
+        "customers": 91,
+        "sales": 89054.45,
+        "avg_r": 35.44,
+        "avg_f": 3.97,
+        "avg_m": 978.62,
+        "cust_share": 11.48,
+        "sales_share": 3.88,
+        "arpu": 978.62
+      }
+    ],
+    "top_segment": "重要价值客户",
+    "top_segment_sales_share": 39.49,
+    "top_segment_cust_share": 25.09,
+    "vip_sales_share": 80.15,
+    "vip_cust_share": 50.06
+  },
+  "kmeans": {
+    "k": 4,
+    "inertia": 870.45,
+    "clusters": [
+      {
+        "Cluster": 3,
+        "customers": 223,
+        "R": 79.59,
+        "F": 9.5,
+        "M": 4310.13,
+        "sales_share": 41.85
+      },
+      {
+        "Cluster": 0,
+        "customers": 333,
+        "R": 88.04,
+        "F": 5.91,
+        "M": 3238.28,
+        "sales_share": 46.95
+      },
+      {
+        "Cluster": 2,
+        "customers": 92,
+        "R": 570.62,
+        "F": 3.85,
+        "M": 1778.7,
+        "sales_share": 7.12
+      },
+      {
+        "Cluster": 1,
+        "customers": 145,
+        "R": 121.7,
+        "F": 3.92,
+        "M": 646.72,
+        "sales_share": 4.08
+      }
+    ]
+  },
+  "cohort": {
+    "cohorts": 16,
+    "q0": 100.0,
+    "q1": 25.93,
+    "q4": 34.11,
+    "drop_1": 74.07,
+    "best_cohort": "2016Q2",
+    "matrix": [
+      [
+        100.0,
+        16.5,
+        23.1,
+        33.9,
+        14.9,
+        22.3,
+        27.3,
+        37.2,
+        21.5
+      ],
+      [
+        100.0,
+        24.4,
+        36.2,
+        17.5,
+        27.5,
+        29.4,
+        42.5,
+        20.6,
+        31.9
+      ],
+      [
+        100.0,
+        32.9,
+        18.6,
+        28.6,
+        29.8,
+        41.6,
+        18.6,
+        29.8,
+        39.8
+      ],
+      [
+        100.0,
+        17.6,
+        20.3,
+        31.4,
+        39.9,
+        19.6,
+        32.7,
+        37.9,
+        41.2
+      ],
+      [
+        100.0,
+        25.0,
+        31.2,
+        25.0,
+        18.8,
+        18.8,
+        37.5,
+        50.0,
+        37.5
+      ],
+      [
+        100.0,
+        30.6,
+        38.9,
+        27.8,
+        27.8,
+        44.4,
+        44.4,
+        36.1,
+        19.4
+      ],
+      [
+        100.0,
+        41.7,
+        27.8,
+        22.2,
+        38.9,
+        44.4,
+        25.0,
+        52.8,
+        52.8
+      ],
+      [
+        100.0,
+        9.4,
+        15.6,
+        34.4,
+        37.5,
+        37.5,
+        18.8,
+        40.6,
+        53.1
+      ],
+      [
+        100.0,
+        42.9,
+        42.9,
+        50.0,
+        57.1,
+        42.9,
+        64.3,
+        50.0,
+        null
+      ],
+      [
+        100.0,
+        59.1,
+        22.7,
+        36.4,
+        22.7,
+        40.9,
+        59.1,
+        null,
+        null
+      ],
+      [
+        100.0,
+        0.0,
+        16.7,
+        50.0,
+        16.7,
+        66.7,
+        null,
+        null,
+        null
+      ],
+      [
+        100.0,
+        22.2,
+        11.1,
+        22.2,
+        77.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        100.0,
+        33.3,
+        33.3,
+        33.3,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        100.0,
+        0.0,
+        50.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        100.0,
+        33.3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        100.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "index": [
+      "2014Q1",
+      "2014Q2",
+      "2014Q3",
+      "2014Q4",
+      "2015Q1",
+      "2015Q2",
+      "2015Q3",
+      "2015Q4",
+      "2016Q1",
+      "2016Q2",
+      "2016Q3",
+      "2016Q4",
+      "2017Q1",
+      "2017Q2",
+      "2017Q3",
+      "2017Q4"
+    ],
+    "sizes": [
+      121,
+      160,
+      161,
+      153,
+      32,
+      36,
+      36,
+      32,
+      14,
+      22,
+      6,
+      9,
+      3,
+      2,
+      3,
+      3
+    ]
+  },
+  "boston": {
+    "x_median": 5.0,
+    "y_median": 18.52,
+    "quadrants": {
+      "明星": 5,
+      "瘦狗": 4,
+      "金牛": 4,
+      "问题": 4
+    },
+    "stars": [
+      "Accessories",
+      "Binders",
+      "Copiers",
+      "Phones",
+      "Storage"
+    ],
+    "cows": [
+      "Bookcases",
+      "Chairs",
+      "Machines",
+      "Tables"
+    ],
+    "dogs": [
+      "Envelopes",
+      "Fasteners",
+      "Furnishings",
+      "Supplies"
+    ]
+  },
+  "forecast_compare": [
+    {
+      "模型": "SARIMA(1, 1, 0)×(0, 1, 1, 12)",
+      "MAPE(%)": 16.76,
+      "RMSE": 17283.69
+    },
+    {
+      "模型": "Holt-Winters(mul趋势,add季节)",
+      "MAPE(%)": 15.61,
+      "RMSE": 17461.16
+    }
+  ],
+  "sarima": {
+    "order": "(1, 1, 0)",
+    "seasonal_order": "(0, 1, 1, 12)",
+    "aic": 355.11,
+    "train_n": 42,
+    "test_n": 6,
+    "mape": 16.76,
+    "rmse": 17283.69,
+    "hw_mape": 15.61,
+    "hw_rmse": 17461.16,
+    "test_actual": [
+      45264.42,
+      63120.89,
+      87866.65,
+      77776.92,
+      118447.82,
+      83829.32
+    ],
+    "test_pred": [
+      46217.04,
+      45927.99,
+      80863.46,
+      59886.48,
+      86881.2,
+      95243.71
+    ],
+    "test_hw_pred": [
+      46523.64,
+      47188.5,
+      88240.43,
+      48187.48,
+      92381.97,
+      88167.82
+    ],
+    "test_index": [
+      "2017-07-01",
+      "2017-08-01",
+      "2017-09-01",
+      "2017-10-01",
+      "2017-11-01",
+      "2017-12-01"
+    ],
+    "forecast": [
+      {
+        "month": "2018-01-01",
+        "forecast": 59784.95,
+        "lower": 29618.87,
+        "upper": 89951.03
+      },
+      {
+        "month": "2018-02-01",
+        "forecast": 36643.41,
+        "lower": 3100.95,
+        "upper": 70185.88
+      },
+      {
+        "month": "2018-03-01",
+        "forecast": 75277.12,
+        "lower": 34814.72,
+        "upper": 115739.52
+      },
+      {
+        "month": "2018-04-01",
+        "forecast": 55719.52,
+        "lower": 11212.17,
+        "upper": 100226.88
+      },
+      {
+        "month": "2018-05-01",
+        "forecast": 64801.43,
+        "lower": 15740.82,
+        "upper": 113862.03
+      },
+      {
+        "month": "2018-06-01",
+        "forecast": 64184.13,
+        "lower": 11367.67,
+        "upper": 117000.59
+      }
+    ],
+    "forecast_total": 356410.57,
+    "last_year_h1": 256909.23
+  },
+  "rules": {
+    "n_transactions": 5009,
+    "n_rules": 12,
+    "top": [
+      {
+        "antecedent": "Paper",
+        "consequent": "Fasteners",
+        "support": 0.012,
+        "confidence": 0.05,
+        "lift": 1.154
+      },
+      {
+        "antecedent": "Fasteners",
+        "consequent": "Paper",
+        "support": 0.012,
+        "confidence": 0.274,
+        "lift": 1.154
+      },
+      {
+        "antecedent": "Phones",
+        "consequent": "Bookcases",
+        "support": 0.008,
+        "confidence": 0.052,
+        "lift": 1.154
+      }
+    ],
+    "avg_basket_items": 1.83
+  },
+  "funnel": [
+    {
+      "阶段": "全部客户",
+      "人数": 793,
+      "占全部客户%": 100.0,
+      "阶段转化率%": null
+    },
+    {
+      "阶段": "复购客户(≥2单)",
+      "人数": 781,
+      "占全部客户%": 98.5,
+      "阶段转化率%": 98.5
+    },
+    {
+      "阶段": "高频客户(≥5单)",
+      "人数": 598,
+      "占全部客户%": 75.4,
+      "阶段转化率%": 76.6
+    },
+    {
+      "阶段": "高价值客户(重要价值)",
+      "人数": 199,
+      "占全部客户%": 25.1,
+      "阶段转化率%": 33.3
+    }
+  ]
+}
